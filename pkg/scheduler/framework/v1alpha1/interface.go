@@ -36,7 +36,7 @@ import (
 // NodeScoreList declares a list of nodes and their scores.
 type NodeScoreList []NodeScore
 
-// NodeScore is a struct with node name and score.
+// NodeScore is a struct with node dname and score.
 type NodeScore struct {
 	Name  string
 	Score int64
